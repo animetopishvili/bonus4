@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="icon" href="./images/register.svg" />
+  </head>
+  <body>
+    <table border="2" width="30%" align="center">
+      <tr bgcolor="#66A89C">
+        <td colspan="2" align="center"><h2>Registration Form</h2></td>
+      </tr>
+      <tr bgcolor="#0DEDC4">
+        <td>Enter Name:</td>
+        <td><input type="text" id="name" name="name" /></td>
+      </tr>
+      <tr bgcolor="#0DEDC4">
+        <td>Enter Password:</td>
+        <td><input type="password" id="password" name="password" /></td>
+      </tr>
+      <tr bgcolor="#0DEDC4">
+        <td>Enter Address:</td>
+        <td><textarea id="address" name="address"></textarea></td>
+      </tr>
+      <tr bgcolor="#0DEDC4">
+        <td colspan="1">
+          <b>Favorite Games:</b>
+        </td>
+        <td>
+          <input type="checkbox" id="hockey" name="hockey" value="Hockey" />
+          <label for="hockey">Hockey</label>
+          <br />
+          <input
+            type="checkbox"
+            id="football"
+            name="football"
+            value="Football"
+          />
+          <label for="football">Football</label>
+          <br />
+          <input
+            type="checkbox"
+            id="badminton"
+            name="badminton"
+            value="badminton"
+          />
+          <label for="badminton">Badminton</label>
+          <br />
+          <input type="checkbox" id="cricket" name="cricket" value="cricket" />
+          <label for="cricket">Cricket</label>
+          <br />
+          <input
+            type="checkbox"
+            id="volleyball"
+            name="volleyball"
+            value="volleyball"
+          />
+          <label for="volleyball">Volleyball</label>
+          <br />
+        </td>
+      </tr>
+      <tr bgcolor="#0DEDC4">
+        <td colspan="1">
+          <b>Gender:</b>
+        </td>
+        <td>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+        </td>
+      </tr>
+      <tr bgcolor="#0DEDC4">
+        <td><b>Select your age:</b><br /></td>
+        <td>
+          <select id="age" name="age">
+            <option value="">Select</option>
+            <option value="18-25">18-25</option>
+            <option value="26-35">26-35</option>
+            <option value="36-45">36-50</option>
+            <option value="46+"></option></select
+          ><br /><br />
+        </td>
+      </tr>
+
+      <tr bgcolor="#0DEDC4">
+        <td><label for="photo">Select Photo:</label><br /></td>
+        <td><input type="file" id="photo" name="photo" /><br /><br /></td>
+      </tr>
+
+      <tr bgcolor="#0DEDC4" align="center">
+        <td colspan="2">
+          <input type="submit" value="Click Me" />
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit Form" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
